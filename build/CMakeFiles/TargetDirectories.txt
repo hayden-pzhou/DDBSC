@@ -1,0 +1,3 @@
+/home/hayden/DeBackup/DDBSC/build/CMakeFiles/rebuild_cache.dir
+/home/hayden/DeBackup/DDBSC/build/CMakeFiles/edit_cache.dir
+/home/hayden/DeBackup/DDBSC/build/CMakeFiles/DDBSC_cli.dir

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DDBSC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hayden/DeBackup/DDBSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hayden/DeBackup/DDBSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hayden/DeBackup/DDBSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DDBSC_cli">
+				<Option output="/home/hayden/DeBackup/DDBSC/cmake-build-debug/DDBSC_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hayden/DeBackup/DDBSC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/chunking"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/utils"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/net"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DDBSC_cli"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DDBSC_cli/fast">
+				<Option output="/home/hayden/DeBackup/DDBSC/cmake-build-debug/DDBSC_cli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hayden/DeBackup/DDBSC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/chunking"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/utils"/>
+					<Add directory="/home/hayden/DeBackup/DDBSC/src/net"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 DDBSC_cli/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/DeBackup/DDBSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/backup.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunk_phase.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/ae_chunking.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/chunking.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/fascdc_chunking.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/md5.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/md5.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/chunking/rabin_chunking.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/config.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/destor.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/destor.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/do_backup.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/do_restore.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/hash_phase.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/jcr.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/jcr.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/net/network.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/net/network.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/net_phase.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/read_phase.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/recipe/recipestore.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/recipe/recipestore.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/bloom_filter.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/bloom_filter.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/lru_cache.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/lru_cache.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/queue.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/queue.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/sds.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/sds.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/serial.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/serial.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/sync_queue.c">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/src/utils/sync_queue.h">
+			<Option target="DDBSC_cli"/>
+		</Unit>
+		<Unit filename="/home/hayden/DeBackup/DDBSC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

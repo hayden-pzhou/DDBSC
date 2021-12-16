@@ -1,0 +1,22 @@
+# server addr and port
+server 127.0.0.1
+port 8899
+log-level warning
+
+# Specify the chunking algorithm.
+# It can be rabin, fixed, "normalized rabin", tttd, file, and ae.
+# "file" indicates an approximiate file-level deduplication.
+# For example, 
+# chunk-algorithm "normalized rabin"
+# chunk-algorithm file 
+# chunk-algorithm fixed 
+# chunk-algorithm tttd
+# chunk-algorithm ae
+# chunk-algorithm rabin
+chunk-algorithm fastcdc
+
+# Specify the average/maximal/minmal chunk size in bytes.
+# chunk-avg-size 4096
+chunk-avg-size 8192
+chunk-max-size 65536
+chunk-min-size 2048
